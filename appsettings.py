@@ -17,6 +17,6 @@ AF_SERVER_NAME = config.get('AFServerName')
 PI_SERVER_NAME = config.get('DataArchiveName')
 USER_NAME = config.get('Username')
 USER_PASSWORD = config.get('Password')
-AUTH_TYPE = config.get('AuthType', 'kerberos')
+AUTH_TYPE = config.get('AuthType', 'basic')
 VERIFY_SSL = config.get('VerifySSL', True)
 
